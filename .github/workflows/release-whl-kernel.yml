@@ -206,7 +206,7 @@ jobs:
 
   build-cu129-aarch64:
     if: github.repository == 'csahithi/sglang'
-    runs-on: ubuntu-22.04-arm
+    runs-on: b200-runner
     strategy:
       matrix:
         python-version: ["3.10"]
